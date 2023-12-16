@@ -1,0 +1,85 @@
+/* creating a bar behind the header at the top of the page */
+header {
+    color:rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(0, 102, 63);
+}
+
+/* Class used to center elements */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Class for the header logo images to pop out against the background */
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid;
+    border-radius: 15%;
+    border-color: rgb(0, 102, 63);
+    padding: 30px;
+}
+
+/* Making the stagelist centered and styled a bit */
+.stagelist {
+    display:block;
+    background-color: rgb(0, 102, 63);
+    border-radius:25%;
+    border-color: white;
+    border: 5px solid;
+    padding: 5px;
+    padding-bottom: 20px;
+    margin-top: auto;
+    margin-bottom:auto;
+    margin-left: auto;
+    margin-right: Auto;
+    text-align:center;
+    color: white;
+    list-style-position: inside;
+}
+
+/* Keeps the nav bar at the bottom of the screen if the website becomes large enough to scroll */
+nav {
+    position: absolute;
+    margin-bottom: 0;
+    color: white;
+}
+
+/* set background image, and apply text changes to all text for readability */
+body {
+    background-image: url("https://i.ytimg.com/vi/eRUvq92NpQI/maxresdefault.jpg");
+    color: white;
+}
+
+/* Making the nav elements more readable */
+a:link {
+    color: rgb(255, 128, 128);
+}
+
+a:visited {
+    color: white;
+}
+
+/* making the entry form apparent to the user */
+#entry {
+    background-color: rgb(0, 102, 63);
+    text-align:center;
+    color: white;
+}
+
+/* Readability change */
+.schedule {
+    color: white;
+}
+
+/* Readability change */
+table, th, td {
+    border: 1px solid;
+}
+

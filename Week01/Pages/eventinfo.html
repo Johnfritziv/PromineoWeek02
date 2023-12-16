@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Smash Tournament Details</title>
+    <header><h1>Super Smash Brothers Tournament</h1></header>
+</head>
+<body>
+    <img class="logo" width=500 src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Super_Smash_Bros_2018_logo.svg">
+    
+
+    <!-- Table used to display the tournament schedule, each row representing a time-frame up until the next row, detailing what is happening, and which games it is happening for. -->
+    <div class="schedule">
+        <h2>Saturday, January 6th</h2>
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Event</th>
+                <th>Games Applicable</th>
+            </tr>
+            <tr>
+                <td>11am</td>
+                <td>Doors Open</td>
+                <td>Melee, Ultimate</td>
+            </tr>
+            <tr>
+                <td>12pm</td>
+                <td>Free Play</td>
+                <td>Melee, Ultimate</td>
+            </tr>
+            <tr>
+                <td>2pm</td>
+                <td>Pools Start</td>
+                <td>Melee, Ultimate</td>
+            </tr>
+            <tr>
+                <td>4pm</td>
+                <td>Main Bracket / Ammy Bracket</td>
+                <td>Melee, Ultimate</td>
+            </tr>
+            <tr>
+                <td>6pm</td>
+                <td>Finals</td>
+                <td>Melee</td>
+            </tr>
+            <tr>
+                <td>8pm</td>
+                <td>Finals</td>
+                <td>Ultimate</td>
+            </tr>
+
+        </table>
+    </div>
+
+    
+    <!-- Entry form for the tournament, allowing players to enter the gamertag or name they will be called by, as well as which games they wish to enter. -->
+    <div id="entry">
+        <h3>Tournament Entry Form</h3>
+        <form>
+            <label for="gtag">What name do you wish to enter as?</label>
+            <input type="text" id="gtag" name="gtag"><br>
+            <label for="melee">Melee</label>
+            <input type="radio" id="melee" name="melee"><br>
+            <label for="ultimate">Ultimate</label>
+            <input type="radio" id="ultimate" name="ultimate"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>    
+    
+    <!-- Navigation links to each page with rules info on each game -->
+    <nav>
+        <ul>
+            <li><a href="meleeinfo.html">Melee Information</a></li>
+            <li><a href="ultimateinfo.html">Ultimate Information</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
